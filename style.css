@@ -2,146 +2,143 @@
 /* Core Styles */
 
 body {
-    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background: #333;
     color: #fff;
     font-size: 1.1em;
-    line-height: 1.5;
+    line-height: 1.2em;
     text-align: center;
+    margin: 0;
+    padding: 0;
+    
+      }
+  *,
+  *before,
+  *after
+  {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
   }
+  h1, h2{
+    margin: 0;
+    padding: 0;
+  }
+  /*Mainblock*/
+    .mainblock {
+   /* position: absolute;
+    top:0;*/
+    background: url(images/pexels.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    }
+    #h1_maiblock{
+      padding-top: 100px;
+      padding-bottom: 0;
+    }
 
   img {
     display: block;
     width: 100%;
     height: auto;
   }
-
-  
   .btn {
     display: inline-block;
     background: #333;
     color: #fff;
+    padding: 1em 2em;
     border: 1px solid #666;
+    margin: 0.5em 0;  
   }
-
-
-  #mainblock {
-    height: 450px;
-    color: #fff;
-    text-align: center;
-  }
-
-  #mainblock .mainblock-bg {
-    position: absolute;
-    background: #333 url(images/pexels.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 450px;
-    z-index: -1;/*понижает приоритет по оси z*/
-    opacity: 0.4; /*устанавливает непрозрачность элемента*/
-  }
-
-  #mainblock h1 {
-    padding-top: 100px;
-    padding-bottom: 0;
-  }
-
-  #mainblock .content1,
-  #section-a .content1 {
-    padding: 0 1.5em;
-  }
-
-
   #section-a {
     background: #eaeaea;
     color: #333;
     padding-bottom: 2em;
   }
-
-
-  
-
-  #section-b ul {
-    list-style: none;
+  h2{
+    padding: 1.2em;
+  }
+  #p_a{
+    column-count: 2;
+    column-gap: 1.2em;
+    text-align: justify;
+  }
+ #section-b {
+    display: inline-block;
     margin: 0;
-    padding: 0;
+    padding: 2em 1em 1em;
+    
   }
+  .card{
+    width: 30%;
+    background-color: white;
+    color: black;
+    padding-bottom: 2em;
+    display: inline-block;
 
-  #section-b li {
-    margin-bottom: 1em;
+  }
+  #card_middle {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #section-c{
     background: #fff;
     color: #333;
-  }
-
-  .card-content {
-    padding: 1.5em;
-  }
-
-
-  #section-c {
-    background: #fff;
-    color: #333;
     padding: 2em;
   }
 
-
-  #section-d .box {
-    padding: 2em;
-    color: #fff;
-  }
-
-  #section-d .box:first-child {
-    background: #2690d4;
-  }
-
-
-  #main-footer {
-    padding: 2em;
-    background: #000;
-    color: #fff;
+  #section-d {
+   color: #fff;
+   
+  }  
+  #Contact, #About{
+    width: 49%;
+    display: inline-block;
     text-align: center;
+    
   }
+  #Contact{
+    background-color: #2690d4;
+    width: 50%;
+    height: 100%;
+        }
 
-  #main-footer a {
+  #footer1 {
+    width: 100%;
+    background: #000;
+    text-align: center;
     color: #2690d4;
     text-decoration: none;
-  }
-
-
-
-    .grid {
-      display: grid;
-      grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
-    }
-
-    #section-a .content-text {
-      columns: 2;
-      column-gap: 2em;
-    }
-
-    #section-a .content-text p {
-      padding-top: 0;
-    }
-
-    .content1,
-    #section-b ul {
-      grid-column: 2/4;
-    }
-
-    .box,
-    #main-footer div {
-      grid-column: span 2;
-    }
-
-    #section-b ul {
-      display: flex;
-      justify-content: space-around;
-    }
-
-    #section-b li {
-      width: 31%;
-    }
+    box-sizing: border-box;
+   
+   }
+   .footer2{
+     width: 45%;
+     box-sizing: border-box;
+     display:inline-block;
+     padding-top: 0.7em;
+   }
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    ound;
+    
+    
+    
+    
  
