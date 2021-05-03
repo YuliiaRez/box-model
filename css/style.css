@@ -1,0 +1,140 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #333;
+    color: #fff;
+    /*font-size: 1.1em;*/
+    line-height: 1.2em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+      }
+  *,
+  *before,
+  *after
+  {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  h1, h2{
+    margin: 0;
+    padding: 0;
+  }
+    .mainblock {
+    background: url(../images/pexels.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    }
+    #h1_maiblock{
+      padding-top: 100px;
+      padding-bottom: 0;
+    }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 1em 2em;
+    border: 1px solid #666;
+    margin: 0.5em 0;  
+  }
+  #section-a {
+    background: #eaeaea;
+    color: #333;
+    padding-bottom: 2em;
+  }
+  h2{
+    padding: 1.2em;
+  }
+  #p_a{
+    column-count: 2;
+    column-gap: 1.2em;
+    text-align: justify;
+  }
+ #section-b {
+    display: inline-block;
+    margin: 0;
+    padding: 2em 1em 1em;
+    
+  }
+  .card{
+    width: 30%;
+    background-color: white;
+    color: black;
+    padding-bottom: 2em;
+    display: inline-block;
+
+  }
+  #card_middle {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #section-c{
+    background: #fff;
+    color: #333;
+    padding: 2em;
+  }
+
+  #section-d {
+   color: #fff;
+   display: inline-table;
+  /*font-size: 0; *//*второе решение чтобы блоки занимали по 50%*/
+  } 
+
+  #Contact, #About{
+    width: 50%;
+    display: table-cell;
+    font-size: 15px;
+    padding: 1.1em;
+  }
+
+  #Contact{
+    background-color: #2690d4;
+        }
+
+  #footer1 {
+    width: 100%;
+    background: #000;
+    text-align: center;
+    color: #2690d4;
+    text-decoration: none;
+    box-sizing: border-box;
+   
+   }
+   .footer2{
+     width: 45%;
+     box-sizing: border-box;
+     display:inline-block;
+     padding-top: 0.7em;
+   }
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    ound;
+    
+    
+    
+    
+ 
